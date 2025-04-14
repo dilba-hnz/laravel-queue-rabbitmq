@@ -1,5 +1,5 @@
 {
-    "name": "vladimir-yuldashev/laravel-queue-rabbitmq",
+    "name": "custom/laravel-queue-rabbitmq",
     "description": "RabbitMQ driver for Laravel Queue. Supports Laravel Horizon.",
     "license": "MIT",
     "authors": [
@@ -9,9 +9,9 @@
         }
     ],
     "require": {
-        "php": "^8.0",
+        "php": "^8.2",
         "ext-json": "*",
-        "illuminate/queue": "^10.0|^11.0",
+        "illuminate/queue": "^10.0|^11.0|^12.0",
         "php-amqplib/php-amqplib": "^v3.6"
     },
     "require-dev": {
@@ -20,7 +20,7 @@
         "laravel/horizon": "^5.0",
         "orchestra/testbench": "^7.0|^8.0|^9.0",
         "laravel/pint": "^1.2",
-        "laravel/framework": "^9.0|^10.0|^11.0"
+        "laravel/framework": "^9.0|^10.0|^11.0|^12.0"
     },
     "autoload": {
         "psr-4": {
@@ -34,7 +34,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "13.0-dev"
+            "dev-master": "14.0-dev"
         },
         "laravel": {
             "providers": [
